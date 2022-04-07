@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
     <title>Pokémon Facts</title>
 </head>
 <body>
-    
+    <div class="container text-center mt-5">
+        <h1 style="font-size:1.5rem;color:gold;text-shadow: -1px -1px 0 rgb(63, 102, 149), 1px -1px 0 rgb(63, 102, 149),
+          -1px 1px 0 rgb(63, 102, 149), 1px 1px 0 rgb(63, 102, 149);transform:scale(2)">Pokémon Facts</h1>
+        <button id="generate-poke" class="btn btn-danger mt-3">I CHOOSE YOU</button>
+        <div id="poke-container" class="row justify-content-center" style="margin-top:5em;">
+            <!-- pokemon show up here -->
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.js"></script>
     <script src="app.js"></script>
